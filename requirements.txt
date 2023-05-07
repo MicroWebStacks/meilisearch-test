@@ -1,1 +1,2 @@
 meilisearch
+python-dotenv

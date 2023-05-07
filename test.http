@@ -1,0 +1,14 @@
+@key={{$dotenv MEILIKEY}}
+
+### health
+get http://localhost:7700
+Authorization: Bearer {{key}}
+
+### keys
+get http://localhost:7700/keys
+Authorization: Bearer {{key}}
+
+### search
+get http://localhost:7700/indexes/movies/search
+Authorization: Bearer {{key}}
+
